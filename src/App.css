@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F55A5A;
+  padding: 1rem;
+}
+
+.nav--logo {
+  width: 2rem;
+  margin-right: 0.5rem;
+}
+
+.nav--logo-title {
+  color: #fff;
+  margin: 0;
+  margin-top: -6px;
+  font-weight: normal;
+}
+
+.container {
+  width: 40rem;
+  margin: 2rem auto;
+}
+
+.post {
+  display: flex;
+
+}
+
+.post--img {
+  aspect-ratio: 3 / 4;
+  width: 10rem;
+  border-radius: 8px;
+  margin-right: 1rem;
+}
+
+.post--info--location .pin{
+  height: 0.7rem;
+  margin-right: 0.5rem;
+}
+
+.post--info--location .country {
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  margin-right: 1rem;
+}
+
+.post--info--location .googleMapsLink {
+  text-decoration: underline;
+  color: gray;
+}
+
+.post--title {
+  margin: 0.5rem 0;
+  font-size: 2rem;
+}
