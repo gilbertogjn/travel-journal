@@ -12,7 +12,7 @@ nav {
 }
 
 .nav--logo {
-  width: 2rem;
+  width: 1.6rem;
   margin-right: 0.5rem;
 }
 
@@ -21,6 +21,7 @@ nav {
   margin: 0;
   margin-top: -6px;
   font-weight: normal;
+  font-size: 1.2rem;
 }
 
 .container {
@@ -30,14 +31,22 @@ nav {
 
 .post {
   display: flex;
+  align-items: center;
+  border-bottom: 1px solid gainsboro;
+  padding-bottom: 2rem;
+  margin-top: 2rem;
+}
 
+.post:last-child {
+  border-bottom: 0;
 }
 
 .post--img {
   aspect-ratio: 3 / 4;
   width: 10rem;
   border-radius: 8px;
-  margin-right: 1rem;
+  margin-right: 2rem;
+  object-fit: cover;
 }
 
 .post--info--location .pin{
@@ -57,6 +66,15 @@ nav {
 }
 
 .post--title {
-  margin: 0.5rem 0;
+  margin: 0 0 1.2rem 0;
   font-size: 2rem;
+}
+
+.post--date {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.post--description {
+  margin: 0.5rem 0 0 0;
 }

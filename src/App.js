@@ -8,6 +8,7 @@ function App() {
   const posts = data.map(info => {
     return (
       <Post
+        key={info.id}
         {...info}
       />
     )
