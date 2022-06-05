@@ -1,4 +1,5 @@
 import React from "react";
+import pin from "../images/pin.svg"
 
 export default function Post(props) {
     return (
@@ -6,7 +7,7 @@ export default function Post(props) {
             <img className="post--img" src={props.imageUrl} />
             <div className="post--info">
                 <div className="post--info--location">
-                    <img className="pin" src="./images/pin.svg" />
+                    <img src={pin} className="pin" />
                     <span className="country">{props.location}</span>
                         <a className="googleMapsLink" target="_blank"
                             href={props.googleMapsUrl}>
